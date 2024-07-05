@@ -1,0 +1,14 @@
+uuid: a8d01207-749d-434b-8990-4a3a57508f34
+langcode: en
+status: true
+dependencies: {  }
+name: recent_news
+label: 'Recent news'
+effects:
+  3617483b-6767-4269-b3c8-50671b17aa7f:
+    uuid: 3617483b-6767-4269-b3c8-50671b17aa7f
+    id: image_resize
+    weight: 1
+    data:
+      width: 50
+      height: 50

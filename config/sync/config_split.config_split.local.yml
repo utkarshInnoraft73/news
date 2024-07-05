@@ -1,0 +1,27 @@
+uuid: 7606e6f9-4061-4233-9aa1-cd148be5abc1
+langcode: en
+status: false
+dependencies: {  }
+id: local
+label: Local
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/split/local
+module:
+  devel: 0
+  devel_generate: 0
+  field_ui: 0
+  menu_ui: 0
+  views_ui: 0
+  webform: 0
+theme: {  }
+complete_list:
+  - devel.settings
+  - devel.toolbar.settings
+  - menu_ui.settings
+  - views.settings
+  - webform.settings
+partial_list: {  }

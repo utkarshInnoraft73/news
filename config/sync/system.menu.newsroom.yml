@@ -1,0 +1,8 @@
+uuid: 5402dacb-6505-432f-8391-d64762f6856a
+langcode: en
+status: true
+dependencies: {  }
+id: newsroom
+label: Newsroom
+description: ''
+locked: false

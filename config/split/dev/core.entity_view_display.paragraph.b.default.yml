@@ -1,0 +1,35 @@
+uuid: dccbf20d-12a8-465c-9e06-ae1f6556b62f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.b.field_banner_image
+    - field.field.paragraph.b.field_banner_text
+    - paragraphs.paragraphs_type.b
+  module:
+    - image
+id: paragraph.b.default
+targetEntityType: paragraph
+bundle: b
+mode: default
+content:
+  field_banner_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_banner_text:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }
