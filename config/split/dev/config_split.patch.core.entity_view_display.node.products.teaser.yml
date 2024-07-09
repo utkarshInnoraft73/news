@@ -1,9 +1,0 @@
-adding:
-  dependencies:
-    config:
-      - field.field.node.products.field_gallery
-      - field.field.node.products.field_product_banner
-  hidden:
-    field_gallery: true
-    field_product_banner: true
-removing: {  }

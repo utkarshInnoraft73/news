@@ -1,7 +1,0 @@
-adding:
-  dependencies:
-    config:
-      - field.field.node.page.field_banner
-  hidden:
-    field_banner: true
-removing: {  }

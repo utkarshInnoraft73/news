@@ -1,22 +1,22 @@
-uuid: 023867b5-a4c0-4e8a-9336-5cdcf923f343
+uuid: cbfb2a01-0009-48d8-b88e-7e057b9f2cf2
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.ba
+    - views.view.most_searched_product
   module:
     - system
     - views
   theme:
     - olivero
-id: olivero_views_block__ba_block_1
+id: olivero_views_block__most_searched_product_block_1
 theme: olivero
-region: content
-weight: -7
+region: content_below
+weight: 0
 provider: null
-plugin: 'views_block:ba-block_1'
+plugin: 'views_block:most_searched_product-block_1'
 settings:
-  id: 'views_block:ba-block_1'
+  id: 'views_block:most_searched_product-block_1'
   label: ''
   label_display: visible
   provider: views

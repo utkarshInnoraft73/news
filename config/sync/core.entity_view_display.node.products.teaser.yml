@@ -5,7 +5,10 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.products.body
+    - field.field.node.products.field_gallery
+    - field.field.node.products.field_product_banner
     - field.field.node.products.field_product_feature
+    - field.field.node.products.field_product_types
     - node.type.products
   module:
     - text
@@ -29,4 +32,7 @@ content:
     weight: 100
     region: content
 hidden:
+  field_gallery: true
+  field_product_banner: true
   field_product_feature: true
+  field_product_types: true

@@ -1,4 +1,4 @@
-uuid: feec33c3-4532-4578-a4e1-2e68dccc3699
+uuid: 5cfe144a-a083-4b0e-807f-d331a3301bd8
 langcode: en
 status: true
 dependencies:
@@ -17,7 +17,7 @@ plugin: 'system_menu_block:newsroom'
 settings:
   id: 'system_menu_block:newsroom'
   label: Newsroom
-  label_display: visible
+  label_display: '0'
   provider: system
   level: 1
   depth: 0

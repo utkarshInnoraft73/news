@@ -11,14 +11,8 @@ no_patching: false
 storage: folder
 folder: ../config/split/dev
 module:
-  field_ui: 0
-  views_ui: 0
-  paragraphs: 11
+  webform_ui: 0
 theme: {  }
 complete_list:
-  - devel.settings
-  - devel.toolbar.settings
-  - menu_ui.settings
-  - paragraphs.settings
-  - views.settings
+  - system.site
 partial_list: {  }

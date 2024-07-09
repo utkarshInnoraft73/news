@@ -4,9 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.products.body
+    - field.field.node.products.field_gallery
+    - field.field.node.products.field_product_banner
     - field.field.node.products.field_product_feature
+    - field.field.node.products.field_product_types
     - node.type.products
   module:
+    - entity_reference_revisions
     - options
     - text
     - user
@@ -23,17 +27,37 @@ content:
     weight: 101
     region: content
   field_gallery:
-    settings: {  }
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
     third_party_settings: {  }
+    weight: 104
+    region: content
   field_product_banner:
-    settings: {  }
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
     third_party_settings: {  }
+    weight: 102
+    region: content
   field_product_feature:
     type: list_default
     label: above
     settings: {  }
     third_party_settings: {  }
     weight: 103
+    region: content
+  field_product_types:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
     region: content
   links:
     settings: {  }

@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: f4ec0bf1-0a57-4938-a257-d6acf2d324e3
+name: 'Local Drupal News Portal'
+mail: utkarsh.singh@innoraft.com
+slogan: ''
+page:
+  403: /node/55
+  404: /node/54
+  front: /node/2
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

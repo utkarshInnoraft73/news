@@ -12,16 +12,9 @@ storage: folder
 folder: ../config/split/local
 module:
   devel: 0
-  devel_generate: 0
-  field_ui: 0
-  menu_ui: 0
   views_ui: 0
-  webform: 0
+  webform_ui: 0
 theme: {  }
 complete_list:
-  - devel.settings
-  - devel.toolbar.settings
-  - menu_ui.settings
-  - views.settings
-  - webform.settings
+  - system.site
 partial_list: {  }
