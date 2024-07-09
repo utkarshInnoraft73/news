@@ -1,0 +1,29 @@
+uuid: 65f3c5c1-4828-4dc4-ada3-174665462d16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gallery
+    - node.type.products
+  module:
+    - entity_reference_revisions
+id: node.products.field_gallery
+field_name: field_gallery
+entity_type: node
+bundle: products
+label: Gallery
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      b:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

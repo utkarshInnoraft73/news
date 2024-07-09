@@ -1,0 +1,29 @@
+uuid: 023867b5-a4c0-4e8a-9336-5cdcf923f343
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.ba
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__ba_block_1
+theme: olivero
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:ba-block_1'
+settings:
+  id: 'views_block:ba-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
